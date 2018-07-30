@@ -1,0 +1,49 @@
+%\documentclass{article}
+%\usepackage{circuitikz}
+
+%\begin{document}
+
+\begin{circuitikz} 
+\draw
+  (2,3) node[nand port] (nand6) {}
+  (0,4) node[nand port] (nand5) {}
+  (0,2.5) node[nand port] (nand4) {}
+  (4,3) node[nand port] (nand3) {}
+  (6,2) node[nand port] (nand2) {}
+  (nand2.out) node[anchor=west] {$Y$}
+  (0,1) node[nand port] (nand1) {}
+  (nand1.out) -| (nand2.in 2)
+ 
+  (nand3.out) -| (nand2.in 1)
+  (nand3.in 1) -| (nand3.in 2)
+  (nand6.out) -| (nand3.in 2)
+  (nand4.out) -| (nand6.in 2)
+  (nand5.out) -| (nand6.in 1)
+  (nand5.in 2) -| (nand4.in 1)
+  (nand4.in 2) -| (nand1.in 1)
+  
+  ;
+\draw 
+    ([xshift=-1cm]nand1.in 1) 
+      coordinate (aux) node[left] {$R$} to[short] 
+    (nand1.in 1);
+\draw 
+    ([xshift=-1cm]nand1.in 2) 
+        node[left] {$P$} to[short] 
+    (nand1.in 2);
+
+\draw 
+    ([xshift=-1cm]nand5.in 1) 
+        node[left] {$P$} to[short]
+    (nand5.in 1);
+
+\draw 
+    ([xshift=-1cm]nand4.in 1) 
+        node[left] {$Q$} to[short]
+    (nand4.in 1);
+
+
+
+\end{circuitikz}
+
+%\end{document}

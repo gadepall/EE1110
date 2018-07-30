@@ -1,0 +1,25 @@
+%\documentclass[tikz,border=2mm]{standalone}
+%\usetikzlibrary{circuits.logic.US}
+
+%\begin{document}
+\begin{tikzpicture}[circuit logic US, huge circuit symbols]
+  \matrix[column sep=10mm]
+    {
+      \node (a) {A}; & \node [xor gate] (nand) {};&& \\
+      \node (b) {B}; &&& \\
+      \node (c) {C}; && \node [nor gate, inputs=nnn] (nor) {}; & \node [and gate, inputs=nnn] (out) {}; \\
+                     
+      \node (d) {C};&&& \\
+    };
+    \draw (a.east) -- ++(right:5mm)       |- (nand.input 1);
+    \draw (b.east) -- ++(right:5mm)       |- (nand.input 2);
+    \draw (c.east) -- ++(right:5mm)       |- (nor.input 2);
+    \draw (d.east) -- ++(right:52mm)      |- (out.input 3);
+    
+  
+    \draw (nand.output) -- ++(right:30mm) |- (out.input 1);
+    \draw (nand.input 2)  |- (nor.input 1);
+    \draw (nor.output) -- ++(right:5mm)   |- (out.input 2);
+    \draw (out.output) -- ++(right:10mm);
+\end{tikzpicture}
+%\end{document}

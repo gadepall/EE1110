@@ -1,0 +1,32 @@
+%\documentclass{article}
+
+%\usepackage{fullpage}
+%\usepackage[american]{circuitikz}
+%\usetikzlibrary{positioning}
+%\begin{document}
+\begin{circuitikz}[every label/.style={blue}]
+\draw
+% draw And1 gate with label then Not1 gate with label
+(3,3) node[nand port] (mynand1) {}
+    (-1,3.3) node[label=left:$P$] {} -- (mynand1.in 1) 
+    
+(0,2.75) node[scale=0.7,not port] (mynot1) {}
+   
+    
+    (mynot1.out) -- (mynand1.in 2)
+% draw And2 gate with label then Not2 gate with label
+(3,1) node[nand port] (mynand2) {}
+    (-1,0.75) node[label=left:$R$] {} -- (mynand2.in 2)
+   
+% draw Or gate with inputs and output label
+(6,2) node[nand port] (myor) {}
+(-1,2) node[label=left:$Q$]{}--(4.8,2) 
+   (mynot1.in)--(-0.5,2)
+   (mynand2.in 1)--(1.6,2)
+    (mynand1.out) |- (myor.in 1)
+    (mynand2.out) |- (myor.in 2)
+    (myor.out) -- (8,2) node[label=above:$Z$] {}
+;
+\end{circuitikz}
+
+%\end{document}

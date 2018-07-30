@@ -1,0 +1,74 @@
+	\subsection{Decade Counter through Flip Flops}
+%
+Open the blink program.  You will see the following
+%\lstinputlisting[language=C]{./codes/blink}
+\lstinputlisting[language=C]{./codes/blink/src/main.cpp}
+\begin{problem}
+	Connect the digital pin 13 of the arduino to the {\em dot} pin of the display. Execute the Blink program.
+\end{problem}
+\begin{problem}
+Change the delay to 500 ms in the program and execute.  What do you observe?
+\end{problem}
+%	
+The 7474 IC in Fig. \ref{fig:7474} has two D flip flops.  The D pins denote the input and the Q pins denote the output. CLK denotes the clock input.
+%
+\begin{figure}[!h]
+\begin{center}
+\resizebox {\columnwidth} {!} {
+\input{./figs/7474.tex}
+}
+\end{center}
+\caption{}
+\label{fig:7474}
+\end{figure}
+%
+
+%%
+%\begin{figure}[!h]
+%\begin{center}
+%\includegraphics[width=\columnwidth]{./figs/7474IC}
+%\end{center}
+%\caption{}
+%\label{fig:7474IC}
+%\end{figure}
+
+%\begin{center}
+	%\includegraphics[scale=1]{7474IC}
+%\end{center}
+%
+\begin{problem}
+Connect the D2-D5 pins of the arduino to the Q pins of the two 7474 ICs. Use the D2-D5 pins as Arduino input.
+\end{problem}
+\begin{problem}
+Connect the Q pins to IC 7447 Decoder as input pins.  Connect the 7447 IC to the seven segment display.
+\end{problem}
+\begin{problem}
+Connect the D6-D9 pins of the arduino to the D input pins of two 7474 ICs. Use the D6-D9 pins as Arduino output.
+\end{problem}
+\begin{problem}
+Connect pin 13 of the Arduino to the CLK inputs of both the 7474 ICs.
+\end{problem}
+\begin{problem}
+Connect pins 1, 4, 10 and 13 of both 7474 ICs to 5V.
+\end{problem}
+\begin{problem}
+Using the logic for the counting decoder in the Ardunio software, implement the decade counter.
+\end{problem}
+%
+%\subsection{Ripple Counter}
+%%
+%\begin{problem}
+%Using the Arduino for combinational logic and flip-flops, implement the ripple decade counter.
+%\end{problem}
+%\begin{problem}
+%Using the D2-D5 pins as input and D6-D9 pins as output, write a program to implement the logic functions in Problem \ref{seq_decoder} and execute the program.  Comment.
+%\end{problem}
+
+
+%\begin{problem}
+%Draw the state transition diagram for the decade counter.  Number the states from 0-9
+%\end{problem}
+%\begin{problem}
+%Draw the state transition table that has present and next state values in binary.
+%\end{problem}
+

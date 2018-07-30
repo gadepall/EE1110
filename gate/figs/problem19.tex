@@ -1,0 +1,23 @@
+%\documentclass{article}
+
+%\usepackage{fullpage}
+%\usepackage[american]{circuitikz}
+%\usetikzlibrary{positioning}
+%\begin{document}
+\begin{circuitikz}[every label/.style={blue}]
+\draw
+% draw And1 gate with label then Not1 gate with label
+(3,3) node[xor port] (mynand1) {}
+    (-1,3.3) node[label=left:$X$] {} -- (mynand1.in 1) 
+   (4,3) node[label=right:$Y$]{}--(mynand1.out)
+    
+(0,2.75) node[scale=0.7,not port] (mynot1) {}
+(mynot1.out) -- (mynand1.in 2)
+(mynot1.in)--(-0.5,3.3)
+
+   
+;
+
+\end{circuitikz}
+
+%\end{document}

@@ -1,0 +1,73 @@
+\documentclass[11pt]{article}
+\usepackage{tikz}
+%\usetikzlibrary{shapes,arrows}
+\begin{document}
+%\begin{center}
+%%{\textbf{\Huge{Seven Segment Display}}};
+%
+%\end{center}
+\begin{tikzpicture}
+  [
+    scale=2,
+    >=stealth,
+    point/.style = {draw, circle,  fill = black, inner sep = 0.5pt},
+    dot/.style   = {draw, circle,  fill = black, inner sep = .2pt},
+  ]
+  \path
+     (1,0)    edge  node[sloped, anchor=center, below, text width=2.0cm] { $a$}     (1,1)  ;
+  
+%  \coordinate [point, label={below left:$B$ $(0, 0)$}] (B) at (0, 0);
+%    \node (A) at +(60:{2*sqrt(3)}) [point, label = above:$A$ ${(a,b)}$  ] {};
+%  \coordinate [point, label={below left:$(c,0)$ $C$ }] (C) at ($ (3,0) + sqrt(3)*(1,0) $);
+%
+%  \draw  (A) -- (C) -- (B) -- (A);
+%  \node (E) at ($(A)!0.5!(C)$) [point, label = {right:$E$}]{};
+%  \node (F) at ($(A)!0.5!(B)$) [point, label = {left:$F$}]{};
+%  \path
+%     (B)    edge  node[sloped, anchor=center, below, text width=2.0cm] { $k_1:1$}     (E)  
+%	 (C)    edge  node[sloped, anchor=east, below, text width=2.0cm] { $1:k_2$}     (F);
+%  \node (O) at ($(B)!0.67!(E)$) [point, label = {below:$O$}]{};  
+%
+%
+%\draw(0,0) rectangle[sloped, anchor=center, above right, text width=2.0cm]{\textbf{dot}};    
+%\draw (8,1)rectangle (14,-8);
+%
+%\def \wid{1.5}
+%\foreach \i in {0,...,4}
+%{
+%\draw (8 + \i*\wid, 1) -- (8 + \i*\wid, 3); 
+%\draw (8 + \i*\wid, -8) -- (8 + \i*\wid, -10); 
+%}
+%
+%%
+%\foreach [count=\i] \j in {f,g,COM,a,b}{
+%            \node (\i) at ( 6.5 + \i*\wid,3.2) {\j} ;
+%            }
+%\foreach [count=\i] \j in {e,d,COM,c,dot}{
+%            \node (\i) at ( 6.5 + \i*\wid,-10.2) {\j} ;
+%            }
+            
+
+%\draw(11,-1+0.5) node{\textbf{\LARGE{$a$}}};
+%\draw(11,-3.5+0.6) node{\textbf{\LARGE{$g$}}};
+%\draw(12.8,-2-0.25) node{\textbf{\LARGE{$b$}}};
+%\draw(12.8,-2-3.5+0.6+0.25) node{\textbf{\LARGE{$c$}}};
+%\draw(9,-2-3.5+0.6+0.25) node{\textbf{\LARGE{$e$}}};
+%\draw(11,-6.5) node{\textbf{\LARGE{$d$}}};
+%\draw(9,-2-0.25) node{\textbf{\LARGE{$f$}}};
+
+
+
+
+
+%\foreach \position in {(10,-1),(10,-3.5),(10,-6)}
+%\draw \position rectangle +(2,0.3 );
+%
+%\foreach \position in {(9.5,-3.2),(9.5,-5.7),(12.1,-3.2),(12.1,-5.7)}
+%\draw \position rectangle +(0.3,2 );
+
+%\draw[very thick] (13,-7) circle [radius=0.2];
+%\coordinate [point, label={below left:$(0,0)$ $B$}] (B) at (0, 0);
+%\draw(13,-6.8) node[sloped, anchor=center, above right, text width=2.0cm]{\textbf{dot}};    
+\end{tikzpicture}
+\end{document}

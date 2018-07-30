@@ -1,0 +1,12 @@
+\contentsline {section}{\numberline {1}Display Control through Hardware }{1}
+\contentsline {subsection}{\numberline {1.1}Powering the Display}{1}
+\contentsline {subsection}{\numberline {1.2}Software Setup}{2}
+\contentsline {subsection}{\numberline {1.3}Controlling the Display}{2}
+\contentsline {section}{\numberline {2}Display Control through Arduino Software}{3}
+\contentsline {subsection}{\numberline {2.1}Driving the Segments}{3}
+\contentsline {section}{\numberline {3}Combinational Logic}{4}
+\contentsline {subsection}{\numberline {3.1}Counting Decoder}{5}
+\contentsline {subsection}{\numberline {3.2}Display Decoder}{6}
+\contentsline {section}{\numberline {4}Decade Counter through Arduino}{7}
+\contentsline {subsection}{\numberline {4.1}Through a Loop}{7}
+\contentsline {subsection}{\numberline {4.2}Through Flip-Flops}{7}
