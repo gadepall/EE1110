@@ -18,6 +18,7 @@ Now generate the numbers 0-9 by modifying the above program.
 %\section{Combinational Logic}
 %
 \subsection{Counting Decoder}
+\label{subsec:counting_decoder}
 	In the  truth table in Table \ref{table:counter_decoder},  $W,X,Y,Z$ are the inputs
 and $A,B,C,D$ are the outputs. This table represents the system that increments the numbers 0-8 by 1 and resets the number 9 to 0
 %
@@ -59,6 +60,9 @@ Write the boolean logic function for $A$ in terms of $W,X,Y,Z$.
 Verify if your logic is correct by observing the output on the seven segment display.
 \end{problem}
 %
+\begin{problem}
+Introduce delay and feedback in your code to realise a decade counter.
+\end{problem}
 \subsection{Display Decoder}
 %
 \begin{problem}
@@ -83,7 +87,21 @@ A decade counter counts the numbers from 0-9 and then resets to 0.
 \begin{problem}
 Suitably modify the above program to obtain a decade counter.
 \end{problem}
+\setcounter{section}{3}
+\setcounter{problem}{3}
+%\renewcommand{\thetable}{\theproblem}
+\begin{table*}[t]
+%\begin{table}
+\centering
+\input{./figs/ff_ard_pin.tex}
+\caption{}
+\label{fig:ff_ard_pin}
+%\end{table}
+\end{table*}
+\setcounter{section}{2}
+\setcounter{problem}{2}
 
+%\setcounter{section}{3}
 
 
 

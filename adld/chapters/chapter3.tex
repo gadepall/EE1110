@@ -1,4 +1,4 @@
-	\subsection{Decade Counter through Flip Flops}
+%	\subsection{Decade Counter through Flip Flops}
 %
 Open the blink program.  You will see the following
 %\lstinputlisting[language=C]{./codes/blink}
@@ -35,26 +35,46 @@ The 7474 IC in Fig. \ref{fig:7474} has two D flip flops.  The D pins denote the 
 %\begin{center}
 	%\includegraphics[scale=1]{7474IC}
 %\end{center}
-%
 \begin{problem}
-Connect the D2-D5 pins of the arduino to the Q pins of the two 7474 ICs. Use the D2-D5 pins as Arduino input.
-\end{problem}
-\begin{problem}
-Connect the Q pins to IC 7447 Decoder as input pins.  Connect the 7447 IC to the seven segment display.
-\end{problem}
-\begin{problem}
-Connect the D6-D9 pins of the arduino to the D input pins of two 7474 ICs. Use the D6-D9 pins as Arduino output.
-\end{problem}
-\begin{problem}
-Connect pin 13 of the Arduino to the CLK inputs of both the 7474 ICs.
-\end{problem}
-\begin{problem}
-Connect pins 1, 4, 10 and 13 of both 7474 ICs to 5V.
-\end{problem}
-\begin{problem}
-Using the logic for the counting decoder in the Ardunio software, implement the decade counter.
+Connect the Arduino, 7447 and the two 7474 ICs according to Table \ref{fig:ff_ard_pin}.
 \end{problem}
 %
+\begin{problem}
+Connect the 7447 IC to the seven segment display.
+\end{problem}
+%\begin{problem}
+%Connect the D2-D5 pins of the arduino to the Q pins of the two 7474 ICs. Use the D2-D5 pins as Arduino input.
+%\end{problem}
+%\begin{problem}
+%Connect the Q pins to IC 7447 Decoder as input pins.  Connect the 7447 IC to the seven segment display.
+%\end{problem}
+%\begin{problem}
+%Connect the D6-D9 pins of the arduino to the D input pins of two 7474 ICs. Use the D6-D9 pins as Arduino output.
+%\end{problem}
+%\begin{problem}
+%Connect pin 13 of the Arduino to the CLK inputs of both the 7474 ICs.
+%\end{problem}
+%\begin{problem}
+%Connect pins 1, 4, 10 and 13 of both 7474 ICs to 5V.
+%\end{problem}
+\begin{problem}
+Use the logic for the counting decoder in section \ref{subsec:counting_decoder} to implement the decade counter. You may refer to Fig. \ref{fig:decade_counter} to understand the
+functioning of a decade counter.
+
+\end{problem}
+%
+%
+\begin{figure}[!h]
+\begin{center}
+\resizebox {\columnwidth} {!} {
+\input{./figs/decade_counter.tex}
+}
+\end{center}
+\caption{}
+\label{fig:decade_counter}
+\end{figure}
+%
+
 %\subsection{Ripple Counter}
 %%
 %\begin{problem}

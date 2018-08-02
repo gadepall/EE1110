@@ -48,6 +48,11 @@
   %optionally (for landscape tables embedded in another document): %%
     \usepackage{lscape}     
 \usepackage{tikz}
+\usepackage{circuitikz}
+\usepackage{karnaugh-map}
+\usepackage{pgf}
+
+
 
 
 %\usepackage{stmaryrd}
@@ -131,6 +136,7 @@ breaklines=true
 \providecommand{\cbrak}[1]{\ensuremath{\left\{#1\right\}}}
 \providecommand{\lcbrak}[1]{\ensuremath{\left\{#1\right.}}
 \providecommand{\rcbrak}[1]{\ensuremath{\left.#1\right\}}}
+\providecommand{\ceil}[1]{\left \lceil #1 \right \rceil }
 \theoremstyle{remark}
 \newtheorem{rem}{Remark}
 \newcommand{\sgn}{\mathop{\mathrm{sgn}}}
@@ -145,6 +151,8 @@ breaklines=true
 	%\newcommand{\solution}[2]{\textbf{Solution:}{#1}}
 \newcommand{\solution}{\noindent \textbf{Solution: }}
 \providecommand{\dec}[2]{\ensuremath{\overset{#1}{\underset{#2}{\gtrless}}}}
+
+
 %\numberwithin{equation}{subsection}
 \numberwithin{equation}{problem}
 %\numberwithin{problem}{subsection}

@@ -7,4 +7,3 @@
 \contentsline {subsection}{\numberline {2.2}Counting Decoder}{3}
 \contentsline {subsection}{\numberline {2.3}Display Decoder}{4}
 \contentsline {section}{\numberline {3}Decade Counter through Arduino}{4}
-\contentsline {subsection}{\numberline {3.1}Decade Counter through Flip Flops}{4}

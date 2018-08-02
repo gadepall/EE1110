@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=latex 2018.5.9)  26 JUL 2018 12:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=latex 2018.7.30)  2 AUG 2018 17:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -752,6 +752,223 @@ File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
 zlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
 )))
+(/usr/share/texlive/texmf-dist/tex/latex/circuitikz/circuitikz.sty
+Package: circuitikz 2016/09/08{} The CircuiTikz circuit drawing package version
+ 0.7
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarycalc.code.tex
+File: tikzlibrarycalc.code.tex 2013/07/15 v3.0.1a (rcs-revision 1.9)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.code.
+tex
+File: pgflibraryarrows.code.tex 2013/09/23 v3.0.1a (rcs-revision 1.16)
+\arrowsize=\dimen265
+) (/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcirc.defines.tex
+\pgf@circ@res@up=\dimen266
+\pgf@circ@res@down=\dimen267
+\pgf@circ@res@zero=\dimen268
+\pgf@circ@res@left=\dimen269
+\pgf@circ@res@right=\dimen270
+\pgf@circ@res@other=\dimen271
+\pgf@circ@res@step=\dimen272
+\pgf@circ@res@temp=\dimen273
+\pgfstartlinewidth=\dimen274
+\pgf@circ@Rlen=\dimen275
+) (/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcircutils.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcircmath.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcircshapes.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcircmonopoles.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcircbipoles.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcirctripoles.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcircquadpoles.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcirclabel.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcircvoltage.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcirccurrent.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcircpath.tex))
+(/usr/share/texlive/texmf-dist/tex/latex/karnaugh-map/karnaugh-map.sty
+Package: karnaugh-map 2015/10/09 v1.0 Draw Karnaugh Maps
+
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2016/11/21 v6760 L3 programming layer (loader) 
+
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3-code.tex
+Package: expl3 2016/11/21 v6760 L3 programming layer (code)
+L3 Module: l3bootstrap 2016/06/13 v6596 L3 Bootstrap code
+L3 Module: l3names 2016/10/13 v6722 L3 Namespace for primitives
+L3 Module: l3basics 2016/09/01 v6696 L3 Basic definitions
+L3 Module: l3expan 2016/08/19 v6684 L3 Argument expansion
+L3 Module: l3tl 2016/08/19 v6692 L3 Token lists
+L3 Module: l3str 2016/08/19 v6692 L3 Strings
+L3 Module: l3seq 2016/08/19 v6685 L3 Sequences and stacks
+L3 Module: l3int 2016/09/07 v6700 L3 Integers
+\c_max_int=\count155
+\l_tmpa_int=\count156
+\l_tmpb_int=\count157
+\g_tmpa_int=\count158
+\g_tmpb_int=\count159
+L3 Module: l3quark 2016/08/19 v6685 L3 Quarks
+L3 Module: l3prg 2016/08/18 v6679 L3 Control structures
+\g__prg_map_int=\count160
+L3 Module: l3clist 2016/08/19 v6685 L3 Comma separated lists
+L3 Module: l3token 2016/09/01 v6695 L3 Experimental token manipulation
+L3 Module: l3prop 2016/08/19 v6685 L3 Property lists
+L3 Module: l3msg 2016/08/19 v6691 L3 Messages
+L3 Module: l3file 2016/08/19 v6685 L3 File and I/O operations
+\l_iow_line_count_int=\count161
+\l__iow_target_count_int=\count162
+\l__iow_current_line_int=\count163
+\l__iow_current_word_int=\count164
+\l__iow_current_indentation_int=\count165
+L3 Module: l3skip 2016/08/19 v6692 L3 Dimensions and skips
+\c_zero_dim=\dimen276
+\c_max_dim=\dimen277
+\l_tmpa_dim=\dimen278
+\l_tmpb_dim=\dimen279
+\g_tmpa_dim=\dimen280
+\g_tmpb_dim=\dimen281
+\c_zero_skip=\skip68
+\c_max_skip=\skip69
+\l_tmpa_skip=\skip70
+\l_tmpb_skip=\skip71
+\g_tmpa_skip=\skip72
+\g_tmpb_skip=\skip73
+\c_zero_muskip=\muskip11
+\c_max_muskip=\muskip12
+\l_tmpa_muskip=\muskip13
+\l_tmpb_muskip=\muskip14
+\g_tmpa_muskip=\muskip15
+\g_tmpb_muskip=\muskip16
+L3 Module: l3keys 2016/09/21 v6711 L3 Key-value interfaces
+\l_keys_choice_int=\count166
+L3 Module: l3fp 2016/11/21 v6761 L3 Floating points
+\c__fp_leading_shift_int=\count167
+\c__fp_middle_shift_int=\count168
+\c__fp_trailing_shift_int=\count169
+\c__fp_big_leading_shift_int=\count170
+\c__fp_big_middle_shift_int=\count171
+\c__fp_big_trailing_shift_int=\count172
+\c__fp_Bigg_leading_shift_int=\count173
+\c__fp_Bigg_middle_shift_int=\count174
+\c__fp_Bigg_trailing_shift_int=\count175
+L3 Module: l3box 2016/08/19 v6685 L3 Experimental boxes
+\c_empty_box=\box48
+\l_tmpa_box=\box49
+\l_tmpb_box=\box50
+\g_tmpa_box=\box51
+\g_tmpb_box=\box52
+L3 Module: l3coffins 2016/08/19 v6685 L3 Coffin code layer
+\l__coffin_internal_box=\box53
+\l__coffin_internal_dim=\dimen282
+\l__coffin_offset_x_dim=\dimen283
+\l__coffin_offset_y_dim=\dimen284
+\l__coffin_x_dim=\dimen285
+\l__coffin_y_dim=\dimen286
+\l__coffin_x_prime_dim=\dimen287
+\l__coffin_y_prime_dim=\dimen288
+\c_empty_coffin=\box54
+\l__coffin_aligned_coffin=\box55
+\l__coffin_aligned_internal_coffin=\box56
+\l_tmpa_coffin=\box57
+\l_tmpb_coffin=\box58
+\l__coffin_display_coffin=\box59
+\l__coffin_display_coord_coffin=\box60
+\l__coffin_display_pole_coffin=\box61
+\l__coffin_display_offset_dim=\dimen289
+\l__coffin_display_x_dim=\dimen290
+\l__coffin_display_y_dim=\dimen291
+L3 Module: l3color 2016/06/13 v6596 L3 Experimental color support
+L3 Module: l3sys 2015/09/25 v6087 L3 Experimental system/runtime functions
+L3 Module: l3candidates 2016/08/19 v6688 L3 Experimental additions to l3kernel
+\l__box_top_dim=\dimen292
+\l__box_bottom_dim=\dimen293
+\l__box_left_dim=\dimen294
+\l__box_right_dim=\dimen295
+\l__box_top_new_dim=\dimen296
+\l__box_bottom_new_dim=\dimen297
+\l__box_left_new_dim=\dimen298
+\l__box_right_new_dim=\dimen299
+\l__box_internal_box=\box62
+\l__coffin_bounding_shift_dim=\dimen300
+\l__coffin_left_corner_dim=\dimen301
+\l__coffin_right_corner_dim=\dimen302
+\l__coffin_bottom_corner_dim=\dimen303
+\l__coffin_top_corner_dim=\dimen304
+\l__coffin_scaled_total_height_dim=\dimen305
+\l__coffin_scaled_width_dim=\dimen306
+L3 Module: l3luatex 2016/08/18 v6679 L3 Experimental LuaTeX-specific functions
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3dvips.def
+File: l3dvips.def 2016/08/18 v6679 L3 Experimental driver: dvips
+))
+Package: xparse 2016/11/21 v6760 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count176
+\l__xparse_m_args_int=\count177
+\l__xparse_mandatory_args_int=\count178
+\l__xparse_processor_int=\count179
+\l__xparse_v_nesting_int=\count180
+)
+(/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.sty
+(/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.tex
+\@xs@message=\write4
+\integerpart=\count181
+\decimalpart=\count182
+)
+Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarymatrix.code.tex
+File: tikzlibrarymatrix.code.tex 2013/07/12 v3.0.1a (rcs-revision 1.4)
+)
+.................................................
+. LaTeX info: "xparse/define-environment"
+. 
+. Defining environment 'karnaugh-map' with sig. 's O{4} O{4} O{1} O{$X_1X_0$}
+. O{$X_3X_2$} O{$X_5X_4$}' on line 281.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \autoterms with sig. 'O{-}' on line 311.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \indeterminants with sig. 'm' on line 324.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \manualterms with sig. 'm' on line 349.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \maxterms with sig. 'm' on line 362.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \minterms with sig. 'm' on line 375.
+.................................................
+\@karnaughmap@var@colorindex@=\count183
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \implicant with sig. 'm m O{0}' on line 434.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \implicantedge with sig. 'm m m m O{0}' on line 573.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \implicantcorner with sig. 'O{0}' on line 642.
+.................................................
+)
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
@@ -760,57 +977,57 @@ File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
 ) (./gvv_afe.aux)
 \openout1 = `gvv_afe.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 100.
-LaTeX Font Info:    Try loading font information for OML+txmi on input line 100
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 105.
+LaTeX Font Info:    Try loading font information for OML+txmi on input line 105
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 100.
-LaTeX Font Info:    Try loading font information for OMS+txsy on input line 100
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 105.
+LaTeX Font Info:    Try loading font information for OMS+txsy on input line 105
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omstxsy.fd
 File: omstxsy.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 100.
-LaTeX Font Info:    Try loading font information for OMX+txex on input line 100
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 105.
+LaTeX Font Info:    Try loading font information for OMX+txex on input line 105
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omxtxex.fd
 File: omxtxex.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 100.
-LaTeX Font Info:    Try loading font information for U+txexa on input line 100.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 105.
+LaTeX Font Info:    Try loading font information for U+txexa on input line 105.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxexa.fd
 File: utxexa.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Font Info:    Try loading font information for OT1+txr on input line 100.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Try loading font information for OT1+txr on input line 105.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
 )
 -- Lines per column: 50 (exact).
-LaTeX Info: Redefining \celsius on input line 100.
-Package gensymb Info: Faking symbols for \degree and \celsius on input line 100
+LaTeX Info: Redefining \celsius on input line 105.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 105
 .
 
 Package gensymb Warning: Not defining \perthousand.
 
-LaTeX Info: Redefining \ohm on input line 100.
-Package gensymb Info: Using \Omega for \ohm on input line 100.
+LaTeX Info: Redefining \ohm on input line 105.
+Package gensymb Info: Using \Omega for \ohm on input line 105.
 
 Package gensymb Warning: Not defining \micro.
 
@@ -822,43 +1039,43 @@ Package caption Info: longtable package is loaded.
 Package: ltcaption 2013/06/09 v1.4-94 longtable captions (AR)
 )
 Package caption Info: End \AtBeginDocument code.
-\c@lstlisting=\count155
+\c@lstlisting=\count184
 
 ABD: EveryShipout initializing macros
-\c@theorem=\count156
-\c@problem=\count157
-\c@proposition=\count158
-\c@lemma=\count159
-\c@example=\count160
-\c@definition=\count161
-\c@rem=\count162
+\c@theorem=\count185
+\c@problem=\count186
+\c@proposition=\count187
+\c@lemma=\count188
+\c@example=\count189
+\c@definition=\count190
+\c@rem=\count191
 File: iith_logo.eps Graphic file (type eps)
  <iith_logo.eps>
-LaTeX Font Info:    Calculating math sizes for size <24> on input line 267.
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 267.
+LaTeX Font Info:    Calculating math sizes for size <24> on input line 275.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 275.
 
 (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-LaTeX Font Info:    Try loading font information for U+txmia on input line 267.
+LaTeX Font Info:    Try loading font information for U+txmia on input line 275.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsya on input line 267.
+LaTeX Font Info:    Try loading font information for U+txsya on input line 275.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsya.fd
 File: utxsya.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsyb on input line 267.
+LaTeX Font Info:    Try loading font information for U+txsyb on input line 275.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyb.fd
 File: utxsyb.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsyc on input line 267.
+LaTeX Font Info:    Try loading font information for U+txsyc on input line 275.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyc.fd
@@ -866,7 +1083,7 @@ File: utxsyc.fd 2000/12/15 v3.1
 )
 File: tlc.eps Graphic file (type eps)
  <tlc.eps>
-LaTeX Font Info:    Calculating math sizes for size <14> on input line 267.
+LaTeX Font Info:    Calculating math sizes for size <14> on input line 275.
 File: iith_logo.eps Graphic file (type eps)
 
 <iith_logo.eps>
@@ -876,17 +1093,17 @@ File: iith_logo.eps Graphic file (type eps)
  <iith_logo.eps>
 File: tlc.eps Graphic file (type eps)
  <tlc.eps> (./gvv_afe.toc)
-\tf@toc=\write4
-\openout4 = `gvv_afe.toc'.
+\tf@toc=\write5
+\openout5 = `gvv_afe.toc'.
 
 
 (./chapters/chapter1.tex (./figs/components.tex
-\gnumericTableWidth=\skip68
-\gnumericTableWidthComplete=\skip69
-\gnumericMultiRowLength=\skip70
-\gnumericColA=\skip71
-\gnumericColB=\skip72
-\gnumericColC=\skip73
+\gnumericTableWidth=\skip74
+\gnumericTableWidthComplete=\skip75
+\gnumericMultiRowLength=\skip76
+\gnumericColA=\skip77
+\gnumericColB=\skip78
+\gnumericColC=\skip79
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -905,11 +1122,11 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 ] (./figs/arduinoport.tex
-\gnumericColD=\skip74
-\gnumericColE=\skip75
-\gnumericColF=\skip76
-\gnumericColG=\skip77
-\gnumericColH=\skip78
+\gnumericColD=\skip80
+\gnumericColE=\skip81
+\gnumericColF=\skip82
+\gnumericColG=\skip83
+\gnumericColH=\skip84
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -933,18 +1150,33 @@ LaTeX Font Info:    Font shape `OMS/txr/m/n' in size <12> not available
 (./codes/inc_dec/src/main.cpp [3]
 LaTeX Font Info:    Font shape `OMS/txr/m/it' in size <12> not available
 (Font)              Font shape `OMS/txsy/m/n' tried instead on input line 31.
-) (./figs/counter_decoder.tex))
-(./chapters/chapter3.tex (./codes/blink/src/main.cpp [4]) (./figs/7474.tex))
-[5
+) (./figs/counter_decoder.tex)
+(./figs/ff_ard_pin.tex
+\gnumericColI=\skip85
+\gnumericColJ=\skip86
+\gnumericColK=\skip87
+\gnumericColL=\skip88
+\gnumericColM=\skip89
+\gnumericColN=\skip90
+\gnumericColO=\skip91
+)) (./chapters/chapter3.tex (./codes/blink/src/main.cpp)
+[4] (./figs/7474.tex) (./figs/decade_counter.tex
+Overfull \hbox (3.98401pt too wide) in paragraph at lines 49--49
+ [][][]\OT1/txr/m/n/12 Incrementing 
+ []
 
-] (./gvv_afe.aux) ) 
+)
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) [5] (./gvv_afe.aux) ) 
 Here is how much of TeX's memory you used:
- 17516 strings out of 494946
- 326173 string characters out of 6181059
- 531615 words of memory out of 5000000
- 20441 multiletter control sequences out of 15000+600000
+ 31620 strings out of 494946
+ 679532 string characters out of 6181058
+ 957398 words of memory out of 5000000
+ 34462 multiletter control sequences out of 15000+600000
  75536 words of font info for 194 fonts, out of 8000000 for 9000
  17 hyphenation exceptions out of 8191
- 55i,11n,58p,499b,1643s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,12n,58p,10375b,1641s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on gvv_afe.dvi (5 pages, 69148 bytes).
+Output written on gvv_afe.dvi (5 pages, 86472 bytes).
