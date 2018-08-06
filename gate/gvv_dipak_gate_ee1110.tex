@@ -1,7 +1,8 @@
 \documentclass[journal,12pt,twocolumn]{IEEEtran}
 \usepackage{setspace}
 \usepackage{gensymb}
-\usepackage{xcolor}
+\usepackage{iithtlc}
+%\usepackage{xcolor}
 \usepackage{caption}
 \usepackage{fullpage}
 \usepackage[american]{circuitikz}
@@ -13,7 +14,7 @@
 %\doublespacing
 \singlespacing
 
-\usepackage{graphicx}
+%\usepackage{graphicx}
 %\usepackage{amssymb}
 %\usepackage{relsize}
 \usepackage[cmex10]{amsmath}
@@ -38,7 +39,7 @@
 %\usepackage{algpseudocode}
 \usepackage{enumitem}
 \usepackage{mathtools}
-\usepackage{iithtlc}
+
 \usepackage[framemethod=tikz]{mdframed}
 
 %\usepackage{listings}
@@ -981,7 +982,25 @@ X & Y & f(X,Y) \\ \hline
          \item $Y$
          \end{enumerate}                   
  
+\item The function $F\brak{A,B,C}$ defined by three Boolean variables $A, B$ and $C$ when expressed as sum of products is given by
+\begin{equation}
+F = \bar{A}\bar{B}\bar{C} + \bar{A}B\bar{C} + A\bar{B}\bar{C}
+\end{equation}
+where $\bar{A},\bar{B}$ and $\bar{C}$ are the complements of the respective variables.  The product of sums (POS) form of the function $F$ is \dots.
+  \item A traffic signal cycles from GREEN to YELLOW, YELLOW to RED and RED to GREEN.  In each cycle, GREEN is turned on for 70 seconds, YELLOW is
+  turned on  for 5 seconds and RED is turned on for 75 seconds.  This traffic light has to be implemented using a finite state machine (FSM).  
+  The only input to this FSM is a clock of 5 second period.  The minimum number of flip-flops required to implement this FSM is \dots.
+  \item In Fig. \ref{fig:problem53},  the number of distinct values of $X_3X_2X_1X_0$ (out of the 16 possible values) that give $Y=1$ is \dots.
+  \begin{figure}[!h]
+\centering
+\includegraphics[width=\columnwidth]{./figs/47_gate_18.eps}
+%\resizebox {\columnwidth} {!} {
+%\input{./figs/problem47.tex}
+%}
+\caption{}
+\label{fig:problem53}
+\end{figure}
 
  \end{enumerate}
-  
+
 \end{document}
